@@ -1,0 +1,74 @@
+TERMINAL maxbars=100000 build=6204 connected=True path=C:\Program Files\Exness MT5 6180
+NOW_UTC 2026-09-29T13:30:38.243342+00:00
+
+=== XAUUSD ===
+  M1 from(now,30000): n=30000 first=2026-08-28T16:07:00+00:00 last=2026-09-29T13:30:00+00:00
+  M1 from(now,60000): n=60000 first=2026-07-29T22:17:00+00:00 last=2026-09-29T13:30:00+00:00
+  M1 from(now,120000): n=0 err=(-2, 'Terminal: Invalid params')
+  M1 from(now,300000): n=0 err=(-2, 'Terminal: Invalid params')
+  M1 range[45d ago -> 30d ago]: n=13774 first=2026-08-16T22:01:00+00:00 last=2026-08-28T20:57:00+00:00
+  M1 range[60d ago -> 30d ago]: n=27999 first=2026-07-31T13:31:00+00:00 last=2026-08-28T20:57:00+00:00
+  M1 range[90d ago -> 60d ago]: n=30074 first=2026-07-01T13:31:00+00:00 last=2026-07-31T13:30:00+00:00
+  M1 range[180d ago -> 90d ago]: n=0 err=(-2, 'Terminal: Invalid params')
+  M1 range[365d ago -> 180d ago]: n=0 err=(-2, 'Terminal: Invalid params')
+  H1 from(now,50000): n=0 err=(-1, 'Terminal: Call failed')
+  H4 from(now,50000): n=0 err=(-1, 'Terminal: Call failed')
+  D1 from(now,20000): n=0 err=(-1, 'Terminal: Call failed')
+
+=== BTCUSD ===
+  M1 from(now,30000): n=30000 first=2026-09-08T17:28:00+00:00 last=2026-09-29T13:30:00+00:00
+  M1 from(now,60000): n=60000 first=2026-08-18T21:13:00+00:00 last=2026-09-29T13:30:00+00:00
+  M1 from(now,120000): n=0 err=(-2, 'Terminal: Invalid params')
+  M1 from(now,300000): n=0 err=(-2, 'Terminal: Invalid params')
+  M1 range[45d ago -> 30d ago]: n=21600 first=2026-08-15T13:31:00+00:00 last=2026-08-30T13:30:00+00:00
+  M1 range[60d ago -> 30d ago]: n=43184 first=2026-07-31T13:31:00+00:00 last=2026-08-30T13:30:00+00:00
+  M1 range[90d ago -> 60d ago]: n=13633 first=2026-07-22T02:18:00+00:00 last=2026-07-31T13:30:00+00:00
+  M1 range[180d ago -> 90d ago]: n=0 err=(-2, 'Terminal: Invalid params')
+  M1 range[365d ago -> 180d ago]: n=0 err=(-2, 'Terminal: Invalid params')
+  H1 from(now,50000): n=0 err=(-1, 'Terminal: Call failed')
+  H4 from(now,50000): n=0 err=(-1, 'Terminal: Call failed')
+  D1 from(now,20000): n=0 err=(-1, 'Terminal: Call failed')
+
+=== XAGUSD ===
+  M1 from(now,30000): n=30000 first=2026-08-28T15:35:00+00:00 last=2026-09-29T13:30:00+00:00
+  M1 from(now,60000): n=60000 first=2026-07-29T20:03:00+00:00 last=2026-09-29T13:30:00+00:00
+  M1 from(now,120000): n=0 err=(-2, 'Terminal: Invalid params')
+  M1 from(now,300000): n=0 err=(-2, 'Terminal: Invalid params')
+  M1 range[45d ago -> 30d ago]: n=13755 first=2026-08-16T22:05:00+00:00 last=2026-08-28T20:57:00+00:00
+  M1 range[60d ago -> 30d ago]: n=27963 first=2026-07-31T13:31:00+00:00 last=2026-08-28T20:57:00+00:00
+  M1 range[90d ago -> 60d ago]: n=30038 first=2026-07-01T13:31:00+00:00 last=2026-07-31T13:30:00+00:00
+  M1 range[180d ago -> 90d ago]: n=0 err=(-2, 'Terminal: Invalid params')
+  M1 range[365d ago -> 180d ago]: n=0 err=(-2, 'Terminal: Invalid params')
+  H1 from(now,50000): n=0 err=(-1, 'Terminal: Call failed')
+  H4 from(now,50000): n=0 err=(-1, 'Terminal: Call failed')
+  D1 from(now,20000): n=0 err=(-1, 'Terminal: Call failed')
+
+=== USOIL ===
+  M1 from(now,30000): n=30000 first=2026-08-28T15:08:00+00:00 last=2026-09-29T13:30:00+00:00
+  M1 from(now,60000): n=60000 first=2026-07-29T20:15:00+00:00 last=2026-09-29T13:30:00+00:00
+  M1 from(now,120000): n=0 err=(-2, 'Terminal: Invalid params')
+  M1 from(now,300000): n=0 err=(-2, 'Terminal: Invalid params')
+  M1 range[45d ago -> 30d ago]: n=13776 first=2026-08-16T22:01:00+00:00 last=2026-08-28T20:56:00+00:00
+  M1 range[60d ago -> 30d ago]: n=27997 first=2026-07-31T13:31:00+00:00 last=2026-08-28T20:56:00+00:00
+  M1 range[90d ago -> 60d ago]: n=30070 first=2026-07-01T13:31:00+00:00 last=2026-07-31T13:30:00+00:00
+  M1 range[180d ago -> 90d ago]: n=0 err=(-2, 'Terminal: Invalid params')
+  M1 range[365d ago -> 180d ago]: n=0 err=(-2, 'Terminal: Invalid params')
+  H1 from(now,50000): n=0 err=(-1, 'Terminal: Call failed')
+  H4 from(now,50000): n=0 err=(-1, 'Terminal: Call failed')
+  D1 from(now,20000): n=0 err=(-1, 'Terminal: Call failed')
+
+=== EURUSD ===
+  M1 from(now,30000): n=30000 first=2026-08-31T16:07:00+00:00 last=2026-09-29T13:30:00+00:00
+  M1 from(now,60000): n=60000 first=2026-07-31T19:04:00+00:00 last=2026-09-29T13:30:00+00:00
+  M1 from(now,120000): n=0 err=(-2, 'Terminal: Invalid params')
+  M1 from(now,300000): n=0 err=(-2, 'Terminal: Invalid params')
+  M1 range[45d ago -> 30d ago]: n=14373 first=2026-08-16T21:05:00+00:00 last=2026-08-28T20:58:00+00:00
+  M1 range[60d ago -> 30d ago]: n=29191 first=2026-07-31T13:31:00+00:00 last=2026-08-28T20:58:00+00:00
+  M1 range[90d ago -> 60d ago]: n=31611 first=2026-07-01T13:31:00+00:00 last=2026-07-31T13:30:00+00:00
+  M1 range[180d ago -> 90d ago]: n=0 err=(-2, 'Terminal: Invalid params')
+  M1 range[365d ago -> 180d ago]: n=0 err=(-2, 'Terminal: Invalid params')
+  H1 from(now,50000): n=0 err=(-1, 'Terminal: Call failed')
+  H4 from(now,50000): n=9454 first=2018-07-03T00:00:00+00:00 last=2026-09-29T12:00:00+00:00
+  D1 from(now,20000): n=2573 first=2018-07-03T00:00:00+00:00 last=2026-09-29T00:00:00+00:00
+
+PROBE2_DONE
