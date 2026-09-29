@@ -1,0 +1,15 @@
+# Runtime dependencies
+#
+# The engine's core library (core/, analysis/) is deliberately STDLIB ONLY — it
+# imports nothing below. This matters because the bot runs under Wine, where
+# pip-installing numpy and friends is painful.
+MetaTrader5>=5.0.45 ; platform_system == "Windows"
+requests>=2.31
+PyYAML>=6.0
+beautifulsoup4>=4.12
+
+# Research harness only (research/edge_harness.py, research/harness_core.py)
+numpy>=1.26
+
+# Tests
+pytest>=8.0
