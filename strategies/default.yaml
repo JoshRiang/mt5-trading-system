@@ -1,0 +1,39 @@
+# Trading Strategy Configuration
+# Edit this file to define your trading strategy
+
+assets:
+  - "BTCUSD"
+  - "XAUUSD"
+  - "OILUSD"
+  - "XAGUSD"
+
+# Weighted formula for signal calculation
+# bullish_score = bullish_minutes * w_min + bullish_hours * w_hr + bullish_daily * w_day
+# bearish_score = bearish_minutes * w_min + bearish_hours * w_hr + bearish_daily * w_day
+weights:
+  bullish_minutes: 0.2
+  bullish_hours: 0.3
+  bullish_daily: 0.5
+  bearish_minutes: 0.2
+  bearish_hours: 0.3
+  bearish_daily: 0.5
+
+# Signal thresholds
+thresholds:
+  buy: 0.6
+  sell: 0.6
+
+# Risk parameters
+risk:
+  daily_cap: 0.01  # 1% per day
+  rr_ratio: 3.0    # risk:reward 1:3
+  max_open_positions: 4
+
+# News filter
+news_filter:
+  min_impact: 0.3  # only trade if news impact > 0.3
+
+# Time hierarchy rules
+time_hierarchy:
+  consistency_bonus: 1.2  # if all 3 timeframes align
+  conflict_penalty: 0.7   # if daily and minutes conflict
